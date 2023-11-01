@@ -1,7 +1,7 @@
 
 .site-header {
     background-color: #253297; 
-    color: #fff; 
+    color: #000000; 
     padding: 60px 0; /* Внутрішні відступи для шапки */
     text-align: center; /* Вирівнювання тексту по центру */
     font-family: "Arial", sans-serif;
@@ -36,9 +36,13 @@
 }
 
 .main-navigation a {
+    clear: both;
+    background-color: #000000;
     text-decoration: none;
-    color: #ffffff; /* Колір тексту посилань (червоний) */
-    font-size: 20px; /* Розмір шрифту для посилань */
+    color: #253297; /* Колір тексту посилань (червоний) */
+    font-size: 20px; 
+    padding: 10px;
+    list-style-type: none;
     font-weight: bold;
     transition: color 0.3s; /* Плавна анімація при наведенні */
 }
@@ -72,3 +76,10 @@ nav a:hover {
     color: #7c99f7; /* Колір тексту посилань при наведенні */
 }
 
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: #7c99f7;
+}
