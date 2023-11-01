@@ -1,0 +1,74 @@
+
+.site-header {
+    background-color: #253297; 
+    color: #fff; 
+    padding: 60px 0; /* Внутрішні відступи для шапки */
+    text-align: center; /* Вирівнювання тексту по центру */
+    font-family: "Arial", sans-serif;
+    border-top: 2px solid #fff;
+    line-height: 1.5;
+}
+
+.store-info {
+    margin-bottom: 20px;
+}
+
+.store-name {
+    font-size: 40px; 
+    font-weight: bold;
+    color: #fff; 
+}
+
+.store-contact {
+    display: block;
+    font-size: 16px;
+   text-align: center;
+}
+
+.main-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #ffffff; /* Колір тексту посилань (червоний) */
+    font-size: 20px; /* Розмір шрифту для посилань */
+    font-weight: bold;
+    transition: color 0.3s; /* Плавна анімація при наведенні */
+}
+
+.main-navigation a:hover {
+    color: #7c99f7; /* Колір тексту посилань при наведенні (білий) */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: #253297; /* Яскравий колір фону додаткової навігації */
+    padding: 10px 0; 
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 18px; 
+    font-weight: bold;
+    transition: color 0.3s; /* Плавна анімація при наведенні */
+}
+
+nav a:hover {
+    color: #7c99f7; /* Колір тексту посилань при наведенні */
+}
+
